@@ -15,9 +15,16 @@ namespace TaxaJuros.API.Controllers
     {
         private readonly TaxaJurosService _taxaJurosService;
 
+        /// <summary>
+        /// Construtor
+        /// </summary>
+        /// <param name="taxaJurosService"></param>
         public TaxaJurosController(TaxaJurosService taxaJurosService) => _taxaJurosService = taxaJurosService;
 
-
+        /// <summary>
+        /// Método responsável para retornar a taxa de juros
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get()
         {

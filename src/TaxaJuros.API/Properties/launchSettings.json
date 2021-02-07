@@ -4,23 +4,23 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55057",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:55057"
+      //"sslPort": 0
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "api/taxaJuros",
+      //"launchBrowser": true,
+      //"launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "TaxaJuros.API": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "api/taxaJuros",
+      //"launchBrowser": true,
+      //"launchUrl": "swagger",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
